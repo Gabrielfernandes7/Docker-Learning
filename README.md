@@ -30,32 +30,3 @@ Uma imagem é um pacote estático que inclue sua aplicação com todos seus comp
 serviços como os meus contâineres.
 
 Objetivo: Orquestração(Gerenciamento) de vários containêres.
-
-```yml
-# docker-compose.yml
-version: '3.8'
-
-services:
-  # Serviço para o aplicativo Spring Boot
-  spring-app:
-    build: ./path/to/your/spring-app  # Caminho para o diretório do seu aplicativo
-    ports:
-      - "8080:8080"  # Porta do host: Porta do contêiner
-    depends_on:
-      - postgres-db  # Dependência do banco de dados PostgreSQL
-    environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres-db:5432/db_name  # URL do banco de dados
-      SPRING_DATASOURCE_USERNAME: your_username  # Usuário do banco de dados
-      SPRING_DATASOURCE_PASSWORD: your_password  # Senha do banco de dados
-
-  # Serviço para o banco de dados PostgreSQL
-  postgres-db:
-    image: postgres:latest
-    ports:
-      - "5432:5432"  # Porta do host: Porta do contêiner
-    environment:
-      POSTGRES_DB: db_name  # Nome do banco de dados
-      POSTGRES_USER: your_username  # Usuário do banco de dados
-      POSTGRES_PASSWORD: your_password  # Senha do banco de dados
-```
-
