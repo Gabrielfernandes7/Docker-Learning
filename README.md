@@ -8,16 +8,15 @@
 
 ## Índice
 1. [Introdução](/docs/guides/01-introduction.md)
-2. [Soluções que o Docker traz](#soluções-que-o-docker-traz)
-3. [Instalação](#instalação)
-4. [Conceitos Básicos](#conceitos-básicos)
+2. [Instalação](/docs/guides/02-get-docker.md)
+3. [Conceitos Básicos](#conceitos-básicos)
    - [Container e Containerização](#1-container-e-containerização)
    - [Imagem Docker](#2-imagem-docker)
    - [Dockerfile](#3-dockerfile)
    - [Docker-compose.yml](#4-docker-composeyml)
-5. [Exemplos](#exemplos)
-6. [Recursos Adicionais](#recursos-adicionais)
-7. [Licença](#licença)
+4. [Exemplos](/exemples/exemples.md)
+5. [Recursos Adicionais](#recursos-adicionais)
+6. [Licença](#licença)
 
 ## Soluções que o Docker traz (A mágica do Docker)
 
