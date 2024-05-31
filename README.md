@@ -4,6 +4,14 @@
     alt="Docker"
 />
 
+## O que é Docker?
+
+É uma plataforma que foi criada para você contruir, rodar e transferir aplicações do seu ambiente de teste ou desenvolvimento para o ambiente em produção.
+
+## Soluções que o Docker traz
+
+Facilita o deploy no ambiente de produção. Pois consigo montar o ambiente virtual de minha aplicação e rodar no servidor.
+
 ## Instalação do `Docker` (Ubuntu)
 
 ## Conceitos básicos do Docker
