@@ -1,18 +1,34 @@
 # Aprendendo Docker 
-<img height="90px" width="90px" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
-    alt="Docker"
-/>
+<p align="center">
+    <img height="150px" width="150px"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
+        alt="Docker"
+    />
+</p>
 
-## O que é Docker?
+## Índice
+1. [Introdução](/docs/guides/01-introduction.md)
+2. [Soluções que o Docker traz](#soluções-que-o-docker-traz)
+3. [Instalação](#instalação)
+4. [Conceitos Básicos](#conceitos-básicos)
+   - [Container e Containerização](#1-container-e-containerização)
+   - [Imagem Docker](#2-imagem-docker)
+   - [Dockerfile](#3-dockerfile)
+   - [Docker-compose.yml](#4-docker-composeyml)
+5. [Exemplos](#exemplos)
+6. [Recursos Adicionais](#recursos-adicionais)
+7. [Licença](#licença)
 
-É uma plataforma que foi criada para você contruir, rodar e transferir aplicações do seu ambiente de teste ou desenvolvimento para o ambiente em produção.
+## Soluções que o Docker traz (A mágica do Docker)
 
-## Soluções que o Docker traz
+<p align="center">
+    <img height="270px" width="270px"
+        src="./docs/images/docker-magician.jpeg"
+        alt="Whale magician"
+    />
+</p>
 
 Facilita o deploy no ambiente de produção. Pois consigo montar o ambiente virtual de minha aplicação e rodar no servidor.
-
-## Instalação do `Docker` (Ubuntu)
 
 ## Conceitos básicos do Docker
 
