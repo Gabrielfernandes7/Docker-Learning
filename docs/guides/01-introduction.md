@@ -30,6 +30,14 @@
 
 * Requer menos recursos (CPU, memória, disco) para rodar.
 
+## Container e containerização
+
+Um container é uma instância em execução de uma imagem Docker.
+
+Os containeres permitem empacotar a aplicação e suas dependências
+em um ambiente isolado. Garantindo a consistência na execução
+da aplicação em diferentes ambientes.
+
 ### Conclusão
 
 Container é mais leve que uma Machine Virtual.
