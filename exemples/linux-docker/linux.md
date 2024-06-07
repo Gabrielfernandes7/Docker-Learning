@@ -1,7 +1,7 @@
-# Linux :pinguin:
+# Linux 🐧
 
-Aqui está um exemplo de como executar um contêiner Ubuntu usando o Docker:
+Aqui está um exemplo de como executar um contêiner Ubuntu usando Docker:
 
-```shell
+```bash
 docker run -it ubuntu
 ```
