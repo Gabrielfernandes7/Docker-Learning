@@ -30,6 +30,26 @@
 
 * Requer menos recursos (CPU, memória, disco) para rodar.
 
+## Quais características de uma imagem e quais as características de um container
+
+**Images**
+
+Uma imagem possui todo o que é necessário para sua aplicação funcionar.
+
+*CUT-DOWN OS*: dentro de uma imagem possui o sistema operacional
+
+As bibliotecas necessárias para nossa aplicação funcionar
+
+Variáveis de ambiente
+
+**Container**
+
+É um ambiente isolado do nosso sistema operacional
+
+O container é considerado um processo que é executado dentro de uma máquina
+
+- O container pode ser iniciado ou parado
+
 ## Container e containerização
 
 Um container é uma instância em execução de uma imagem Docker.
