@@ -29,3 +29,9 @@ whoami # comando para saber o nome do usuário do meu OS
 ```shell
 echo $0 # saber a pasta e o diretório
 ```
+
+**Saber os arquivos que estão dentro da minha imagem**
+
+```shell
+docker exec nome_container ls
+```
