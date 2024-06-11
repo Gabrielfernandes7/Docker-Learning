@@ -11,8 +11,12 @@
 2. [Instalação](/docs/guides/02-get-docker.md)
 3. [Conceitos Básicos](/docs/guides/03-basics-concepts.md)
 4. [Comandos Docker](/docs/guides/04-command-docker.md)
-5. [Exemplos](/exemples/exemples.md)
-6. [Licença](/LICENSE)
+
+5. [Mapeamento de portas](/docs/guides/05-mapping-ports.md)
+
+[Exemplos](/exemples/exemples.md)
+
+[Licença](/LICENSE)
 
 ## Soluções que o Docker traz (A mágica do Docker)
 
@@ -24,7 +28,6 @@
 </p>
 
 Facilita o deploy no ambiente de produção. Pois consigo montar o ambiente virtual de minha aplicação e rodar no servidor.
-
 
 ## Boas práticas
 
