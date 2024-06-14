@@ -14,6 +14,11 @@ docker images -a
 
 [How To Remove Docker Images, Containers, and Volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes#remove-dangling-docker-images)
 
+```shell
+# remove os containers parados e as imagens não utilizadas
+docker system prune -a
+```
+
 **Imagem do Linux rodando em um container**
 
 ```shell
